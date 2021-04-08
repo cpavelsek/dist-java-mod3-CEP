@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>How To</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2>
+    Welcome to this site
+</h2>
+<p>
+   We are about to learn how to steal BitCoin
+</p>
+
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

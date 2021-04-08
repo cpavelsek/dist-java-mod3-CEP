@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<body>
+<header th:fragment="header">
+
+
+    <div class="">
+        <img class="img-fluid" th:src="@{/img/ElonBitCoin.jpg}" alt="Elon Musk hiding behind BitCoin">
+    </div>
+    <nav>
+        <ul>
+            <li><a th:href="@{/}">Home</a></li>
+            <li><a th:href="@{/stepOne}">Step One</a></li>
+            <li><a th:href="@{/stepTwo}">Step Two</a></li>
+            <li><a th:href="@{/stepThree}">Step Three</a></li>
+
+        </ul>
+    </nav>
+</header>
+</body>
+</html>
